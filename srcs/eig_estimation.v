@@ -34,25 +34,6 @@ module eig_estimation(
    assign A_initial[127:112] = 16'b0000010000000000; 
    assign A_initial[191:176] = 16'b0000011000000000; 
    assign A_initial[255:240] = 16'b0000011000000000; 
-
-//   assign A_initial[15:0]    = 16'b0000000010000000; 
-//   assign A_initial[79:64]   = 16'b0000010000000000; 
-//   assign A_initial[143:128] = 16'b0000001100000000; 
-//   assign A_initial[207:192] = 16'b0000001000000000; 
-//   assign A_initial[31:16]   = 16'b0000001000000000; 
-//   assign A_initial[95:80]   = 16'b0000001000000000; 
-//   assign A_initial[159:144] = 16'b0000010000000000; 
-//   assign A_initial[223:208] = 16'b0000001000000000; 
-//   assign A_initial[47:32]   = 16'b0000001000000000; 
-//   assign A_initial[111:96]  = 16'b0000001000000000; 
-//   assign A_initial[175:160] = 16'b0000001000000000; 
-//   assign A_initial[239:224] = 16'b0000010000000000; 
-//   assign A_initial[63:48]   = 16'b0000010000000000; 
-//   assign A_initial[127:112] = 16'b0000010000000000; 
-//   assign A_initial[191:176] = 16'b0000001000000000; 
-//   assign A_initial[255:240] = 16'b0000001000000000;
-   
-
    
    gram_schmidt qr_w_gram(
         .clk(clk),
@@ -76,14 +57,6 @@ module eig_estimation(
         .exit_flag(exit_flag)
        ); 
    
-//   blk_mem_gen_0 bram(
-//       .clka(clk),
-//       .ena(~exit_flag),
-//       .wea(we),
-//       .addra(addr),
-//       .dina(bram_in),
-//       .douta(bram_out)
-//         );
     
    complex_conjugate comp_conj(
         .A_new(A_diag),
