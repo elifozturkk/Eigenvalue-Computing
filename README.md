@@ -1,7 +1,9 @@
 # A-TSA-Based-Digital-Architecture-for-Computing-Eigenvalues-of-Asymmetric-Matrix
 CNNA 2021 A Triangular Systolic Array Based Digital Architecture for Computing Eigenvalues of Asymmetric Matrix
 
-Project name: A Triangular Systolic Array Based Digital Architecture for Computing Eigenvalues of Asymmetric Matrix
+The 17th IEEE International Workshop on Cellular Nanoscale Networks and their Applications - University of Catania
+
+Paper name: A Triangular Systolic Array Based Digital Architecture for Computing Eigenvalues of Asymmetric Matrix
 
 University name: Istanbul Technical University
 
