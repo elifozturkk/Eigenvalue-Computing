@@ -13,7 +13,7 @@ Supervisor name: Müştak Erhan Yalçın
 
 Supervisor e-mail: mustak.yalcin@itu.edu.tr
 
-Participants: Elif Öztürk, İlayda Köseoğlu
+Students: Elif Öztürk, İlayda Köseoğlu
 
 Emails:
   elifozturk1109@gmail.com,
